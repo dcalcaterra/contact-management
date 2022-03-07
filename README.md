@@ -37,9 +37,10 @@ Istruzioni
         
 2. Costruire le immagini del back-end e del front-end ed eseguire il deployment
 
+        cd ..
         docker-compose up 
 
-3. Collegarsi a [http://localhost:3000/](http://localhost:3000/) sulla macchina locale.
+3. Collegarsi a [http://localhost:8080/](http://localhost:8080/) sulla macchina locale.
 
 4. Accedere alla piattaforma 
 
