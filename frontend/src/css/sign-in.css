@@ -1,0 +1,107 @@
+/* Form sign-in*/
+
+.form-signin {
+    max-width: 400px;
+    padding: 4px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.textfield
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-main {
+    background-color: #505050;
+    padding: 40px 50px;
+}
+
+@media (max-width: 767px) {
+    .form-main {
+        padding: 40px 30px;
+    }
+}
+
+.signin {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FF8627;
+    color: #ffffff;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+.signin:hover {
+    background-color: #ff6610;
+    color: #ffffff;
+}
+
+.btn:hover {
+    color: #fff;
+} 
+
+.form-signin .form-control:focus {
+    border-color: #ff7000;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 112, 0, 0.6);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 122, 0, 0.6);
+    transition: border-color 0.7s, box-shadow 0.7s;
+    -webkit-transition: border-color 0.7s, box-shadow 0.7s;
+}
+
+.subpage-title {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 20px;
+}
+.subpage-title h5 {
+    font-style: italic;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0;
+    font-weight: 400;
+    color: #333333;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.subpage-title h5:before, .subpage-title h5:after{
+    content: "";
+    width: 200%;
+    height: 1px;
+    display: inline-block;
+    background-color: #e3e3e3;
+    position: relative;
+    vertical-align: bottom;
+    margin: 0 -200% 0 0;
+    left: 20px;
+    bottom: 12px;
+}
+.subpage-title h5:before{
+    left: -20px;
+    margin: 0 0 0 -200%;
+}
